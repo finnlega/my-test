@@ -1,6 +1,5 @@
 
 body {
-	position: absolute;
 	width: 1440px;
 	height: 581px;
 	left: 0px;
@@ -11,14 +10,12 @@ body {
 .fon {
 	width:  1440px;
 	height: 581px;
-	position: absolute;
 	background: #C4C4C4;
 	left: 0px;
 	top: 0px;
 	}
 
 .logo {
-	position: absolute;
 	width: 130px;
 	height: 82.51px;
 	left: 120px;
