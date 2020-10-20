@@ -1,5 +1,6 @@
 
 body {
+	position: absolute;
 	width: 1440px;
 	height: 581px;
 	left: 0px;
@@ -8,6 +9,7 @@ body {
 	}
 
 .fon {
+	position: absolute;
 	width:  1440px;
 	height: 581px;
 	background: #C4C4C4;
@@ -16,6 +18,7 @@ body {
 	}
 
 .logo {
+	position: absolute;
 	width: 130px;
 	height: 82.51px;
 	left: 120px;
