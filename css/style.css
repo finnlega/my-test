@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Roboto-Regular"),
+    url("roboto.woff") format("woff");
+}
 
 body {
 	position: absolute;
@@ -32,10 +40,10 @@ body {
 	left: 709px;
 	top: 33px;
 
-	font-family: Open Sans;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 18px;						/* был 18 */
 	line-height: 25px;
 	/* identical to box height */
 	color: #2E2F22;
@@ -49,7 +57,7 @@ nav li:nth-child(2) {
 	left: 853px;
 	top: 33px;
 
-	font-family: Open Sans;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -68,7 +76,7 @@ nav li:nth-child(3) {
 	left: 1012px;
 	top: 33px;
 
-	font-family: Open Sans;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -85,7 +93,7 @@ nav li:nth-child(3) {
 	left: 1195px;
 	top: 33px;
 
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -119,7 +127,7 @@ nav li:nth-child(3) {
 	/*border: 1px solid black;*/
 	padding: auto;
 
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
@@ -156,7 +164,7 @@ nav li:nth-child(3) {
 	height: 27px;
 	left: 0px;
 	top: 401px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -186,7 +194,7 @@ nav li:nth-child(3) {
 	height: 26px;
 	left: 0px;
 	top: 500px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -201,7 +209,7 @@ nav li:nth-child(3) {
 	height: 26px;
 	left: 304px;
 	top: 500px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -216,7 +224,7 @@ nav li:nth-child(3) {
 	height: 27px;
 	left: 406px;
 	top: 401px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -246,7 +254,7 @@ nav li:nth-child(3) {
 	height: 26px;
 	left: 406px;
 	top: 500px;
-	font-family: Open Sans;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -261,7 +269,7 @@ nav li:nth-child(3) {
 	height: 26px;
 	left: 710px;
 	top: 500px;
-	font-family: Open Sans;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -272,11 +280,11 @@ nav li:nth-child(3) {
 
 .main-container li:nth-child(9) {
 	position: absolute;
-	width: 308px;
+	width: 380x;
 	height: 27px;
 	left: 814px;
 	top: 401px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -302,11 +310,11 @@ nav li:nth-child(3) {
 
 .main-container li:nth-child(11) {
 	position: absolute;
-	width: 83px;
-	height: 26px;
+	width: 198;
+	height: 26x;
 	left: 814px;
 	top: 500px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -321,7 +329,7 @@ nav li:nth-child(3) {
 	height: 26px;
 	left: 1116px;
 	top: 500px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -336,7 +344,7 @@ nav li:nth-child(3) {
 	height: 30px;
 	left: 82px;
 	top: 973px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -351,7 +359,7 @@ nav li:nth-child(3) {
 	height: 56px;
 	left: 82px;
 	top: 1011px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -366,7 +374,7 @@ nav li:nth-child(3) {
 	height: 26px;
 	left: 82px;
 	top: 1079px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -381,7 +389,7 @@ nav li:nth-child(3) {
 	height: 26px;
 	left: 428px;
 	top: 1079px;
-	font-family: Open Sans;
+	font-family:'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -396,7 +404,7 @@ nav li:nth-child(3) {
 	height: 30px;
 	left: 692px;
 	top: 973px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -411,7 +419,7 @@ nav li:nth-child(3) {
 	height: 56px;
 	left: 692px;
 	top: 1011px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -426,7 +434,7 @@ nav li:nth-child(3) {
 	height: 26px;
 	left: 692px;
 	top: 1079px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -441,7 +449,7 @@ nav li:nth-child(3) {
 	height: 26px;
 	left: 1038px;
 	top: 1079px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -455,7 +463,13 @@ nav li:nth-child(3) {
 	width: 224px;
 	height: 46px;
 	left: 488px;
-	top: 1244px;
+	margin-top: 104px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	background-color: white;
 
 	border: 1px solid #202117;
 	box-sizing: border-box;
@@ -482,7 +496,7 @@ nav li:nth-child(3) {
 	margin-left: 516px;
 	margin-top: 0px;
 	
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
@@ -505,7 +519,7 @@ nav li:nth-child(3) {
 	position: absolute;
 	margin-top: 583px;
 	margin-left: 610px;
-	border:3px solid #D7D1C9;
+	border:2px solid #D7D1C9;
 	height: 214px;
 	}
 
@@ -517,7 +531,7 @@ nav li:nth-child(3) {
 	left: 630px;
 	top: 146px;
 
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -533,7 +547,7 @@ nav li:nth-child(3) {
 	left: 630px;
 	top: 610px;
 
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	font-weight: normal;
 	font-size: 30px;
@@ -551,7 +565,7 @@ nav li:nth-child(3) {
 	top: 2921px;
 	
 	display: flex;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	flex-direction: column;
 	}
 
@@ -560,8 +574,7 @@ nav li:nth-child(3) {
 	height: 55px;
 	margin-left: 485px;
 	margin-top: 0px;
-	padding: auto;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
@@ -572,6 +585,7 @@ nav li:nth-child(3) {
 .container-portfolio {
 	width: 1200px;
 	height: 779px;
+	margin-top: 0px;
 	/*border: 1px solid black;*/
 	display: flex;
 	flex-wrap: wrap;
@@ -580,7 +594,7 @@ nav li:nth-child(3) {
 	}
 
 .port {
-	margin-top:  104px;
+	margin-top:  49px;
 	}  	
 
 .poftfolio li:nth-child(1) {
@@ -589,7 +603,7 @@ nav li:nth-child(3) {
 	height: 30px;
 	left: 81px;
 	top: 244px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -604,7 +618,7 @@ nav li:nth-child(3) {
 	height: 28px;
 	left: 81px;
 	top: 318px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -619,7 +633,7 @@ nav li:nth-child(3) {
 	height: 78px;
 	left: 81px;
 	top: 437px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -635,7 +649,7 @@ nav li:nth-child(3) {
 	height: 30px;
 	left: 522px;
 	top: 244px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -650,7 +664,7 @@ nav li:nth-child(3) {
 	height: 56px;
 	left: 432px;
 	top: 318px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -666,7 +680,7 @@ nav li:nth-child(3) {
 	height: 104px;
 	left: 438px;
 	top: 437px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -682,7 +696,7 @@ nav li:nth-child(3) {
 	height: 30px;
 	left: 922px;
 	top: 244px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -697,7 +711,7 @@ nav li:nth-child(3) {
 	height: 56px;
 	left: 876px;
 	top: 318px;
-	font-family: Spectral SC;
+	font-family: 'Spectral SC', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
@@ -712,7 +726,7 @@ nav li:nth-child(3) {
 	height: 52px;
 	left: 831px;
 	top: 437px;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -722,15 +736,22 @@ nav li:nth-child(3) {
 	list-style-type: none;
 	}
 
-.portfolio input {
+input {
 	position: absolute;
 	width: 224px;
 	height: 46px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 733px;
-
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	background-color: white;
+	
 	border: 1px solid #202117;
 	box-sizing: border-box;
 	border-radius: 10px;
+	align-self: center;
 	}	
