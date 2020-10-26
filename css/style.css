@@ -755,3 +755,40 @@ input {
 	border-radius: 10px;
 	align-self: center;
 	}	
+
+.feedback {
+	position: absolute;
+	width: 996px;
+	height: 741px;
+	top: 3785px;
+	left: 222px;
+	border: 1px solid black;
+	display: flex;
+	}
+
+.feedback h1 {
+	position: absolute;
+	width: 290px;
+	height: 55px;
+	margin-top: 0px;
+	left: 353px;
+	border: 1px solid black;
+	text-align: center;
+}	
+
+.container_feedback	{
+	position: absolute;
+	width: 996px;
+	height: 637px;
+	
+	display: flex;
+	margin-top: 104px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius:  10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	background-image: url("/my-test/img/feedback.png");
+
+
+}
+
