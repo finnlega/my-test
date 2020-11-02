@@ -30,8 +30,16 @@
     <main>
      	<article class="main-container" id="main-blog">
       		<h1>Все статьи</h1>
+            <select name="theme">
+              <option value="Выбрать тему">Выбрать тему</option>
+              <option value="Путешествия"><a href="#travel"></a>Путешествия</option>
+              <option value="Город">Город</option>
+              <option value="Книги">Книги</option>
+              <option value="Фотографии">Фотографии</option>
+              <option value="Рецепты">Рецепты</option>
+            </select>
       			<section class="container">
-      				<div class="cont image-1" alt="путешествия"><a href="/my-test/img/image_1.png"><img src="img/image_1.png"></a></div>
+      				<div class="cont image-1" alt="путешествия" id="travel"><a href="/my-test/img/image_1.png"><img src="img/image_1.png"></a></div>
               <div class="cont image-2" alt="город"><a href="/my-test/img/image_2"><img src="img/image_2.png"></a></div>
               <div class="cont image-3" alt="книги"><a href="/my-test/img/image_3"><img src="img/image_3.png"></div>
               <div class="cont image-4" alt="фотографии"><a href="/my-test/img/image_4"><img src="img/image_4.png"></div>
@@ -103,31 +111,25 @@
      				<input type="button" value="Показать еще">
       </article>
      	<aside class="feedback" id="write-to-me">
-      		<h1>Написать мне</h1>
-      		<div class="container_feedback">
-      			
-      		</div>
-      		<!--<div>
-      			<label for="user-field-id">Ваше имя</label>
-      			<input type="text" name="username" id="user-field-id" value="Иван Иванов">
-      		</div>
-      		<div>
-      			<label><label for="email-field-id">EMAIL</label>
-      			<input type="text" name="email" id="email-field-id" value="google@gmail.com"></label>
-	      	</div>
-	      	<div>
-	      		<label for="comment-field">Сообщение</label>
-	      		<textarea name="comment" id="comment-field" rows="10">Напишите здесь ваше сообщение</textarea>
-	      	</div>-->	
-    	</aside>
+          <h1>Написать мне</h1>
+          <div class="container_feedback">
+            <input type="text" name="username" id="user-field-id" value="Иван Иванов">
+            <input type="text" name="email" id="email-field-id" value="google@gmail.com">
+            <textarea name="comment" id="comment-field" rows="10">Напишите здесь ваше сообщение</textarea>
+            <input type="button" value="ОТПРАВИТЬ">
+          </div>
+          <ul>
+            <li><label for="user-field-id">Ваше имя</label></li>
+            <li><label for="email-field-id">Email</label></li>
+            <li><label for="comment-field">Сообщение</label></li>
+          </ul>
+      </aside> 
     </main>
     <footer class="page-footer">
-    	<!--<dir>
-    		<p>ВК</p>
-    		<p>Телеграм</p>
-    		<p>Инстраграм</p>
-    		<p>Твиттер</p>
-    	</dir>    -->  
+    	    <div>ВК</div>
+    		  <div>Телеграм</div>
+    		  <div>Инстаграм</div>
+    		  <div>Твиттер</div>
     </footer>
   </body>
 </html>
